@@ -1,13 +1,13 @@
 # Vision Transformer on CIFAR-10
 
-This project implements a Vision Transformer (ViT) for image classification on the CIFAR-10 dataset using PyTorch.
+This project implements a Vision Transformer(ViT) for image classification on the CIFAR-10 dataset using PyTorch.
 
-## 📦 Dataset
+## Dataset
 
 - **CIFAR-10**: 60,000 32x32 color images in 10 classes, with 6,000 images per class.
 - Automatically downloaded using `torchvision.datasets`.
 
-## 🧠 Model
+## Model
 
 - **Architecture**: Vision Transformer (ViT)
 - **Patch Size**: 4x4 or 8x8 patches
@@ -15,7 +15,7 @@ This project implements a Vision Transformer (ViT) for image classification on t
 - **Transformer Layers**: Configurable (e.g., 6 layers, 8 heads)
 - **Classification Head**: MLP+Softmax
 
-## 🔧 Setup
+## Setup
 
 ```bash
 git clone https://github.com/yourusername/vit-cifar10.git
