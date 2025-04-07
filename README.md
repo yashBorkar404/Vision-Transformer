@@ -13,7 +13,7 @@ This project implements a Vision Transformer (ViT) for image classification on t
 - **Patch Size**: 4x4 or 8x8 patches
 - **Embedding Dimension**: e.g., 128 or 256
 - **Transformer Layers**: Configurable (e.g., 6 layers, 8 heads)
-- **Classification Head**: MLP + Softmax
+- **Classification Head**: MLP+Softmax
 
 ## 🔧 Setup
 
